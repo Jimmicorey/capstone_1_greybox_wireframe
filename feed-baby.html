@@ -3,21 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="feed-baby.css">
     <title>FEED BABY</title>
 </head>
 <body>
 
     <header>
-        <h1>Last Time Baby Was Fed</h1>
-        <p>00:00:00</p>
+        <p>What's for dinner?</p>
     </header>
-    <main>
-        <div class="flex-container">
-        <a href="feed-baby.html" class="button">Feed Baby</a>
-        <a href="change-diaper.html" class="button">Change Diaper</a>
-        <a href="bath-time.html" class="button">Bath Time</a>
+    <main class="flex-container">
+
+        <div class="flex-container-row">
+            <button class="button">Formula</button>
+            <button class="button">Milk (Bottle)</button>
         </div>
+
+        <div class="flex-container-row">
+            <button class="button">Milk (Left)</button>
+            <button class="button">Milk (Right)</button>
+        </div>
+
+        <div class="flex-container-row">
+            <a href="feed-baby-logs.html" 
+            class="button-nav" 
+            style="text-decoration:none">
+                Logs
+            </a>
+
+        <a href="home.html" 
+        class="button-nav" 
+        style="text-decoration:none">
+            Back
+        </a>
+        </div>
+
     </main>
     
 </body>
